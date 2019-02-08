@@ -26,7 +26,7 @@ public class SerialComm {
 		debug = false; // Default is to NOT be in debug mode
 	}
 		
-	// TODO: Add writeByte() method that you created in Studio 5
+	// TODO: Add writeByte() method that you created in Studio 4
 	
 	
 }
