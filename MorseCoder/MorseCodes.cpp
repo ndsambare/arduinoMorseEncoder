@@ -17,7 +17,7 @@ typedef struct {      // A struct is like a simple class with just public fields
 //   1) Morse codes won't change (and shouldn't be changed by the program)
 //   2) Declaring this const puts it in the "read-only" part of Memory (where the program 
 //       code is also located).  The Arduino has little RAM compared to ROM. Making this 
-//       const leaces more RAM available in case the program needs to use it)
+//       const leaves more RAM available in case the program needs to use it)
 // It's declared as static to confine the scope to this file (another file could also use 
 // a variable called MorseCodeTable)
 static const Code MorseCodeTable[] = { 
