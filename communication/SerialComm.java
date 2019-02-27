@@ -23,10 +23,19 @@ public class SerialComm {
 			SerialPort.STOPBITS_1,
 			SerialPort.PARITY_NONE);
 		
-		debug = false; // Default is to NOT be in debug mode
+		debug = true; // Default is to NOT be in debug mode
 	}
 		
 	// TODO: Add writeByte() method that you created in Studio 4
+	
+	void writeByte (byte singleByte) throws SerialPortException {
+		port.writeByte(singleByte); 
+		if (debug) {
+		
+			System.out.println(singleByte); 
+			
+		}	 
+	}
 	
 	
 }
