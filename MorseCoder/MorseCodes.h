@@ -1,4 +1,4 @@
-
+//
 /*
  * The Header (.h) file declares things that belong at the "head"
  * (beginning) of a file to explain some aspects of the contents

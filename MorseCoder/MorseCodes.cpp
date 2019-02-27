@@ -1,5 +1,5 @@
 #include"MorseCodes.h"
-
+//
 #include<string.h>  // For strcmp
 
 // Morse Code can also be thought of as a substitution cipher.  
@@ -122,4 +122,3 @@ char morseDecode(const char* encoded) {
 char morseDecode(String encoded) {
   return morseDecode(encoded.c_str());
 }
-
